@@ -1,0 +1,21 @@
+[submodule "pinocchio"]
+	path = pinocchio
+	url = git+ssh://aur@aur.archlinux.org/pinocchio.git
+[submodule "pinocchio-git"]
+	path = pinocchio-git
+	url = git+ssh://aur@aur.archlinux.org/pinocchio-git.git
+[submodule "tabula"]
+	path = tabula
+	url = git+ssh://aur@aur.archlinux.org/tabula.git
+[submodule "eigen32"]
+	path = eigen32
+	url = git+ssh://aur@aur.archlinux.org/eigen32.git
+[submodule "eigenpy"]
+	path = eigenpy
+	url = git+ssh://aur@aur.archlinux.org/eigenpy.git
+[submodule "hpp-fcl"]
+	path = hpp-fcl
+	url = git+ssh://aur@aur.archlinux.org/hpp-fcl.git
+[submodule "hpp-util-git"]
+	path = hpp-util-git
+	url = git+ssh://aur@aur.archlinux.org/hpp-util-git.git
