@@ -1,0 +1,8 @@
+FROM base/archlinux
+VOLUME /var/cache/pacman/pkg/:/var/cache/pacman/pkg/
+RUN echo -e "[archlinuxfr]\nSigLevel = Never\nServer = http://repo.archlinux.fr/x86_64" >> /etc/pacman.conf
+RUN pacman -Syu --noconfirm yaourt base-devel
+RUN useradd -m -G wheel user
+RUN echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+USER user
+WORKDIR /home/user
