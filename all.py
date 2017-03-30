@@ -13,5 +13,7 @@ def output(pkg):
 
 
 if __name__ == '__main__':
+    run(['docker', 'build', '-t', 'pkg', '.'])
+
     with ProcessPoolExecutor(2 * cpu_count()) as executor:
         executor.map(output, [pkg for pkg in Path('.').iterdir() if pkg.is_dir() and str(pkg) not in ['.git', 'logs']])
