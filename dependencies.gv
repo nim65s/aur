@@ -1,0 +1,112 @@
+digraph dependencies {
+	graph [rankdir=RL]
+		hpp_environments
+		"hpp-pinocchio-git"
+		pinocchio
+		"hpp-util-git"
+		"pinocchio-git"
+		eigenpy
+		lua51
+		urdfdom
+		"java-runtime"
+		doxygen
+		"boost-libs"
+		"hpp-statistics-git"
+		boost
+		"hpp-model"
+		"python2-numpy"
+		"hpp-model-urdf"
+		"hpp-fcl"
+		"ros-build-tools"
+		eigen32
+		tinyxml
+		"metapod-git"
+		"ros-indigo-catkin"
+		"ros-indigo-srdfdom"
+		assimp
+		tabula
+		romeo_description
+		"gcc-fortran"
+		"ros-indigo-urdf"
+		"ros-indigo-urdfdom"
+		eigen
+		git
+		"ros-indigo-resource-retriever"
+		cmake
+		qt4
+		freeglut
+		suitesparse
+		fftw
+			"pinocchio-git" -> "metapod-git"
+			"pinocchio-git" -> lua51
+			"pinocchio-git" -> cmake
+			"pinocchio-git" -> git
+			"pinocchio-git" -> eigen32
+			"pinocchio-git" -> eigenpy
+			"pinocchio-git" -> "hpp-fcl"
+			"pinocchio-git" -> urdfdom
+			eigen32 -> qt4
+			eigen32 -> cmake
+			eigen32 -> freeglut
+			eigen32 -> "gcc-fortran"
+			eigen32 -> fftw
+			eigen32 -> qt4
+			eigen32 -> suitesparse
+			eigen32 -> boost
+			"hpp-model" -> assimp
+			"hpp-model" -> cmake
+			"hpp-model" -> eigen32
+			"hpp-model" -> "hpp-util-git"
+			"hpp-model" -> "hpp-fcl"
+			pinocchio -> "metapod-git"
+			pinocchio -> lua51
+			pinocchio -> cmake
+			pinocchio -> eigen32
+			pinocchio -> "hpp-fcl"
+			pinocchio -> eigenpy
+			pinocchio -> urdfdom
+			tabula -> "java-runtime"
+			"hpp-util-git" -> cmake
+			"hpp-util-git" -> git
+			"hpp-util-git" -> doxygen
+			"hpp-util-git" -> boost
+			"hpp-util-git" -> tinyxml
+			"hpp-fcl" -> cmake
+			"hpp-fcl" -> eigen32
+			"hpp-fcl" -> assimp
+			"hpp-pinocchio-git" -> "hpp-model"
+			"hpp-pinocchio-git" -> "hpp-model-urdf"
+			"hpp-pinocchio-git" -> romeo_description
+			"hpp-pinocchio-git" -> hpp_environments
+			"hpp-pinocchio-git" -> cmake
+			"hpp-pinocchio-git" -> git
+			"hpp-pinocchio-git" -> doxygen
+			"hpp-pinocchio-git" -> "ros-build-tools"
+			"hpp-pinocchio-git" -> "ros-indigo-catkin"
+			"hpp-pinocchio-git" -> boost
+			"hpp-pinocchio-git" -> pinocchio
+			"hpp-pinocchio-git" -> assimp
+			"hpp-pinocchio-git" -> "hpp-util-git"
+			"hpp-pinocchio-git" -> "hpp-fcl"
+			"hpp-pinocchio-git" -> "ros-indigo-resource-retriever"
+			"hpp-model-urdf" -> cmake
+			"hpp-model-urdf" -> "ros-build-tools"
+			"hpp-model-urdf" -> "ros-indigo-catkin"
+			"hpp-model-urdf" -> assimp
+			"hpp-model-urdf" -> "hpp-util-git"
+			"hpp-model-urdf" -> "hpp-model"
+			"hpp-model-urdf" -> "ros-indigo-resource-retriever"
+			"hpp-model-urdf" -> "ros-indigo-urdf"
+			"hpp-model-urdf" -> "ros-indigo-urdfdom"
+			"hpp-model-urdf" -> "ros-indigo-srdfdom"
+			"hpp-statistics-git" -> cmake
+			"hpp-statistics-git" -> git
+			"hpp-statistics-git" -> doxygen
+			"hpp-statistics-git" -> "hpp-util-git"
+			eigenpy -> doxygen
+			eigenpy -> cmake
+			eigenpy -> eigen
+			eigenpy -> boost
+			eigenpy -> "python2-numpy"
+			eigenpy -> "boost-libs"
+}

@@ -33,7 +33,7 @@ dirs = [pkg for pkg in Path('.').iterdir() if pkg.is_dir() and str(pkg) not in [
 pkgs = {pkg: deps(pkg) for pkg in dirs}
 deps = set.union(set(str(pkg) for pkg in pkgs), *[set(pkgs[pkg]) for pkg in pkgs])
 
-dot = Digraph(format='svg')
+dot = Digraph(name='dependencies', format='svg', graph_attr={'rankdir': 'RL'})
 for dep in deps:
     dot.node(str(dep))
 for pkg in pkgs:
