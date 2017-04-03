@@ -22,3 +22,6 @@
 [submodule "hpp-statistics-git"]
 	path = hpp-statistics-git
 	url = git+ssh://aur@aur.archlinux.org/hpp-statistics-git.git
+[submodule "hpp-model"]
+	path = hpp-model
+	url = git+ssh://aur@aur.archlinux.org/hpp-model.git
