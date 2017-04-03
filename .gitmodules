@@ -19,3 +19,6 @@
 [submodule "hpp-util-git"]
 	path = hpp-util-git
 	url = git+ssh://aur@aur.archlinux.org/hpp-util-git.git
+[submodule "hpp-statistics-git"]
+	path = hpp-statistics-git
+	url = git+ssh://aur@aur.archlinux.org/hpp-statistics-git.git
