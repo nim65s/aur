@@ -28,3 +28,6 @@
 [submodule "hpp-model-urdf"]
 	path = hpp-model-urdf
 	url = git+ssh://aur@aur.archlinux.org/hpp-model-urdf.git
+[submodule "hpp-pinocchio-git"]
+	path = hpp-pinocchio-git
+	url = git+ssh://aur@aur.archlinux.org/hpp-pinocchio-git.git
