@@ -8,9 +8,9 @@ from subprocess import run
 
 def output(pkg):
     with open(f'logs/{pkg}.log', 'w') as f:
-        ret = run(['docker', 'run', '--rm', '--name', pkg, '-t', 'pkg',
+        ret = run(['docker', 'run', '--rm', '--name', pkg,
                    '-v', '/var/cache/pacman/pkg/:/var/cache/pacman/pkg/', '-v', '/etc/pacman.d/:/etc/pacman.d/',
-                   'yaourt', '-S', '--noconfirm', pkg], stdout=f)
+                   '-t', 'pkg', 'yaourt', '-S', '--noconfirm', pkg], stdout=f)
     print(ret.returncode, pkg)
 
 
