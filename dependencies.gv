@@ -1,41 +1,40 @@
 digraph dependencies {
 	graph [rankdir=RL]
-		hpp_environments
-		"hpp-pinocchio-git"
-		pinocchio
-		"hpp-util-git"
-		"pinocchio-git"
-		eigenpy
-		lua51
-		urdfdom
-		"java-runtime"
-		doxygen
-		"boost-libs"
-		"hpp-statistics-git"
-		boost
-		"hpp-model"
-		"python2-numpy"
-		"hpp-model-urdf"
-		"hpp-fcl"
-		"ros-build-tools"
 		eigen32
-		tinyxml
-		"metapod-git"
-		"ros-indigo-catkin"
-		"ros-indigo-srdfdom"
-		assimp
-		tabula
-		romeo_description
-		"gcc-fortran"
-		"ros-indigo-urdf"
-		"ros-indigo-urdfdom"
-		eigen
 		git
 		"ros-indigo-resource-retriever"
+		"hpp-pinocchio-git"
+		"gcc-fortran"
+		doxygen
+		"ros-indigo-urdfdom"
+		"boost-libs"
+		"ros-indigo-catkin"
+		romeo_description
+		tabula
+		"pinocchio-git"
+		"hpp-statistics-git"
 		cmake
-		qt4
 		freeglut
+		hpp_environments
+		"metapod-git"
+		"ros-indigo-urdf"
+		"python2-numpy"
+		"ros-build-tools"
+		qt4
+		"hpp-model"
+		"hpp-util-git"
+		"java-runtime"
+		tinyxml
+		urdfdom
+		pinocchio
+		"hpp-model-urdf"
 		suitesparse
+		eigenpy
+		boost
+		assimp
+		"ros-indigo-srdfdom"
+		lua51
+		"hpp-fcl"
 		fftw
 			"pinocchio-git" -> "metapod-git"
 			"pinocchio-git" -> lua51
@@ -66,9 +65,9 @@ digraph dependencies {
 			pinocchio -> eigenpy
 			pinocchio -> urdfdom
 			tabula -> "java-runtime"
+			"hpp-util-git" -> doxygen
 			"hpp-util-git" -> cmake
 			"hpp-util-git" -> git
-			"hpp-util-git" -> doxygen
 			"hpp-util-git" -> boost
 			"hpp-util-git" -> tinyxml
 			"hpp-fcl" -> cmake
@@ -78,9 +77,9 @@ digraph dependencies {
 			"hpp-pinocchio-git" -> "hpp-model-urdf"
 			"hpp-pinocchio-git" -> romeo_description
 			"hpp-pinocchio-git" -> hpp_environments
+			"hpp-pinocchio-git" -> doxygen
 			"hpp-pinocchio-git" -> cmake
 			"hpp-pinocchio-git" -> git
-			"hpp-pinocchio-git" -> doxygen
 			"hpp-pinocchio-git" -> "ros-build-tools"
 			"hpp-pinocchio-git" -> "ros-indigo-catkin"
 			"hpp-pinocchio-git" -> boost
@@ -99,13 +98,13 @@ digraph dependencies {
 			"hpp-model-urdf" -> "ros-indigo-urdf"
 			"hpp-model-urdf" -> "ros-indigo-urdfdom"
 			"hpp-model-urdf" -> "ros-indigo-srdfdom"
+			"hpp-statistics-git" -> doxygen
 			"hpp-statistics-git" -> cmake
 			"hpp-statistics-git" -> git
-			"hpp-statistics-git" -> doxygen
 			"hpp-statistics-git" -> "hpp-util-git"
 			eigenpy -> doxygen
 			eigenpy -> cmake
-			eigenpy -> eigen
+			eigenpy -> eigen32
 			eigenpy -> boost
 			eigenpy -> "python2-numpy"
 			eigenpy -> "boost-libs"
