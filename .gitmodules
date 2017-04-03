@@ -25,3 +25,6 @@
 [submodule "hpp-model"]
 	path = hpp-model
 	url = git+ssh://aur@aur.archlinux.org/hpp-model.git
+[submodule "hpp-model-urdf"]
+	path = hpp-model-urdf
+	url = git+ssh://aur@aur.archlinux.org/hpp-model-urdf.git
