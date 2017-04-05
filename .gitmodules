@@ -40,3 +40,15 @@
 [submodule "console-bridge"]
 	path = console-bridge
 	url = git+ssh://aur@aur.archlinux.org/console-bridge.git
+[submodule "hpp-constraints"]
+	path = hpp-constraints
+	url = git+ssh://aur@aur.archlinux.org/hpp-constraints.git
+[submodule "srdfdom-git"]
+	path = srdfdom-git
+	url = git+ssh://aur@aur.archlinux.org/srdfdom-git.git
+[submodule "resource-retriever"]
+	path = resource-retriever
+	url = git+ssh://aur@aur.archlinux.org/resource-retriever.git
+[submodule "urdf-git"]
+	path = urdf-git
+	url = git+ssh://aur@aur.archlinux.org/urdf-git.git

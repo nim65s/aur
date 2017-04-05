@@ -1,41 +1,45 @@
 digraph dependencies {
 	graph [rankdir=RL]
-		eigen32
-		git
-		"ros-indigo-resource-retriever"
-		"hpp-pinocchio-git"
-		"gcc-fortran"
-		doxygen
-		"ros-indigo-urdfdom"
-		"boost-libs"
-		"ros-indigo-catkin"
-		romeo_description
-		tabula
-		"pinocchio-git"
-		"hpp-statistics-git"
-		cmake
-		freeglut
-		hpp_environments
-		"metapod-git"
-		"ros-indigo-urdf"
-		"python2-numpy"
-		"ros-build-tools"
-		qt4
-		"hpp-model"
-		"hpp-util-git"
-		"java-runtime"
-		tinyxml
 		urdfdom
-		pinocchio
-		"hpp-model-urdf"
-		suitesparse
-		eigenpy
-		boost
-		assimp
-		"ros-indigo-srdfdom"
-		lua51
-		"hpp-fcl"
+		"urdfdom-headers"
 		fftw
+		"gcc-fortran"
+		"srdfdom-git"
+		"hpp-fcl"
+		doxygen
+		"hpp-util-git"
+		"metapod-git"
+		romeo_description
+		git
+		srdfdom
+		"gcc-libs"
+		boost
+		hpp_environments
+		pinocchio
+		"hpp-statistics-git"
+		qt4
+		"urdf-git"
+		"console-bridge"
+		cmake
+		eigen32
+		"hpp-model-urdf"
+		"boost-libs"
+		assimp
+		"java-runtime"
+		"pinocchio-git"
+		tinyxml
+		lua51
+		"hpp-constraints"
+		"hpp-pinocchio-git"
+		"hpp-model"
+		"python2-numpy"
+		freeglut
+		urdf
+		tabula
+		eigenpy
+		curl
+		"resource-retriever"
+		suitesparse
 			"pinocchio-git" -> "metapod-git"
 			"pinocchio-git" -> lua51
 			"pinocchio-git" -> cmake
@@ -52,6 +56,8 @@ digraph dependencies {
 			eigen32 -> qt4
 			eigen32 -> suitesparse
 			eigen32 -> boost
+			"console-bridge" -> cmake
+			"console-bridge" -> "gcc-libs"
 			"hpp-model" -> assimp
 			"hpp-model" -> cmake
 			"hpp-model" -> eigen32
@@ -64,7 +70,25 @@ digraph dependencies {
 			pinocchio -> "hpp-fcl"
 			pinocchio -> eigenpy
 			pinocchio -> urdfdom
+			urdfdom -> cmake
+			urdfdom -> tinyxml
+			urdfdom -> "console-bridge"
+			urdfdom -> "urdfdom-headers"
+			"resource-retriever" -> cmake
+			"resource-retriever" -> urdfdom
+			"resource-retriever" -> curl
+			"resource-retriever" -> boost
+			"srdfdom-git" -> doxygen
+			"srdfdom-git" -> cmake
+			"srdfdom-git" -> git
+			"srdfdom-git" -> boost
+			"srdfdom-git" -> tinyxml
+			"srdfdom-git" -> "urdfdom-headers"
+			"srdfdom-git" -> "console-bridge"
+			"hpp-constraints" -> cmake
+			"hpp-constraints" -> "hpp-model"
 			tabula -> "java-runtime"
+			"urdfdom-headers" -> cmake
 			"hpp-util-git" -> doxygen
 			"hpp-util-git" -> cmake
 			"hpp-util-git" -> git
@@ -80,24 +104,20 @@ digraph dependencies {
 			"hpp-pinocchio-git" -> doxygen
 			"hpp-pinocchio-git" -> cmake
 			"hpp-pinocchio-git" -> git
-			"hpp-pinocchio-git" -> "ros-build-tools"
-			"hpp-pinocchio-git" -> "ros-indigo-catkin"
 			"hpp-pinocchio-git" -> boost
 			"hpp-pinocchio-git" -> pinocchio
 			"hpp-pinocchio-git" -> assimp
 			"hpp-pinocchio-git" -> "hpp-util-git"
 			"hpp-pinocchio-git" -> "hpp-fcl"
-			"hpp-pinocchio-git" -> "ros-indigo-resource-retriever"
+			"hpp-pinocchio-git" -> "resource-retriever"
 			"hpp-model-urdf" -> cmake
-			"hpp-model-urdf" -> "ros-build-tools"
-			"hpp-model-urdf" -> "ros-indigo-catkin"
 			"hpp-model-urdf" -> assimp
 			"hpp-model-urdf" -> "hpp-util-git"
 			"hpp-model-urdf" -> "hpp-model"
-			"hpp-model-urdf" -> "ros-indigo-resource-retriever"
-			"hpp-model-urdf" -> "ros-indigo-urdf"
-			"hpp-model-urdf" -> "ros-indigo-urdfdom"
-			"hpp-model-urdf" -> "ros-indigo-srdfdom"
+			"hpp-model-urdf" -> urdf
+			"hpp-model-urdf" -> "resource-retriever"
+			"hpp-model-urdf" -> urdfdom
+			"hpp-model-urdf" -> srdfdom
 			"hpp-statistics-git" -> doxygen
 			"hpp-statistics-git" -> cmake
 			"hpp-statistics-git" -> git
@@ -108,4 +128,9 @@ digraph dependencies {
 			eigenpy -> boost
 			eigenpy -> "python2-numpy"
 			eigenpy -> "boost-libs"
+			"urdf-git" -> doxygen
+			"urdf-git" -> cmake
+			"urdf-git" -> git
+			"urdf-git" -> boost
+			"urdf-git" -> urdfdom
 }
