@@ -31,3 +31,12 @@
 [submodule "hpp-pinocchio-git"]
 	path = hpp-pinocchio-git
 	url = git+ssh://aur@aur.archlinux.org/hpp-pinocchio-git.git
+[submodule "urdfdom"]
+	path = urdfdom
+	url = git+ssh://aur@aur.archlinux.org/urdfdom.git
+[submodule "urdfdom-headers"]
+	path = urdfdom-headers
+	url = git+ssh://aur@aur.archlinux.org/urdfdom-headers.git
+[submodule "console-bridge"]
+	path = console-bridge
+	url = git+ssh://aur@aur.archlinux.org/console-bridge.git
