@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker build -t pkg .
+docker build -t pkg . || exit
 
 for d in *
 do

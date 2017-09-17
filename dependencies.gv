@@ -1,47 +1,50 @@
 digraph dependencies {
 	graph [rankdir=RL]
-		"resource-retriever"
-		"hpp-model"
-		"hpp-fcl"
-		eigen32
-		"metapod-git"
-		srdfdom
-		"urdf-git"
-		"hpp-pinocchio-git"
-		tabula
-		git
 		urdfdom
-		"hpp-util-git"
-		"console-bridge"
+		"openscenegraph-qt4"
+		"gepetto-viewer-corba-git"
 		suitesparse
-		lua51
+		"hpp-constraints"
+		hpp_environments
 		fftw
 		doxygen
-		"srdfdom-git"
-		eigenpy
-		"gepetto-viewer-git"
-		"python2-numpy"
-		tinyxml
-		"gcc-fortran"
+		eigen32
 		"gcc-libs"
-		"hpp-constraints"
-		qt4
-		"hpp-model-urdf"
-		"urdfdom-headers"
-		freeglut
-		assimp
-		"hpp-statistics-git"
-		cmake
+		"hpp-util-git"
 		pinocchio
-		"openscenegraph-qt4"
-		curl
-		"pinocchio-git"
-		romeo_description
-		"java-runtime"
-		hpp_environments
+		"urdf-git"
 		urdf
-		boost
+		"java-runtime"
+		"hpp-statistics-git"
+		srdfdom
+		git
+		"urdfdom-headers"
+		"hpp-pinocchio-git"
 		"boost-libs"
+		"gcc-fortran"
+		"console-bridge"
+		eigenpy
+		"python2-numpy"
+		romeo_description
+		tinyxml
+		omniorbpy
+		"hpp-fcl"
+		qt4
+		omniorb
+		"metapod-git"
+		"pinocchio-git"
+		lua51
+		tabula
+		curl
+		"hpp-model"
+		cmake
+		"hpp-model-urdf"
+		"srdfdom-git"
+		assimp
+		"gepetto-viewer-git"
+		"resource-retriever"
+		freeglut
+		boost
 			"pinocchio-git" -> "metapod-git"
 			"pinocchio-git" -> lua51
 			"pinocchio-git" -> cmake
@@ -80,6 +83,13 @@ digraph dependencies {
 			"resource-retriever" -> urdfdom
 			"resource-retriever" -> curl
 			"resource-retriever" -> boost
+			"gepetto-viewer-corba-git" -> doxygen
+			"gepetto-viewer-corba-git" -> cmake
+			"gepetto-viewer-corba-git" -> git
+			"gepetto-viewer-corba-git" -> "gepetto-viewer-git"
+			"gepetto-viewer-corba-git" -> omniorb
+			"gepetto-viewer-corba-git" -> qt4
+			"gepetto-viewer-corba-git" -> omniorbpy
 			"srdfdom-git" -> doxygen
 			"srdfdom-git" -> cmake
 			"srdfdom-git" -> git
@@ -92,7 +102,7 @@ digraph dependencies {
 			"gepetto-viewer-git" -> doxygen
 			"gepetto-viewer-git" -> cmake
 			"gepetto-viewer-git" -> git
-			"gepetto-viewer-git" -> "boost-libs"
+			"gepetto-viewer-git" -> boost
 			"gepetto-viewer-git" -> urdfdom
 			"gepetto-viewer-git" -> "openscenegraph-qt4"
 			tabula -> "java-runtime"
