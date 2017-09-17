@@ -28,3 +28,7 @@ cd $package
 `./dependencies.py`
 
 ![Dependencies](https://cdn.rawgit.com/nim65s/aur/master/dependencies.gv.svg)
+
+## TODO:
+
+- hpp-model-urdf
