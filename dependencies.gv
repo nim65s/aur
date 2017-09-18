@@ -1,154 +1,152 @@
 digraph dependencies {
 	graph [rankdir=RL]
-		urdfdom
-		"openscenegraph-qt4"
-		"gepetto-viewer-corba-git"
-		suitesparse
-		"hpp-constraints"
-		hpp_environments
-		fftw
-		doxygen
-		eigen32
-		"gcc-libs"
-		"hpp-util-git"
-		pinocchio
-		"urdf-git"
-		urdf
-		"java-runtime"
-		"hpp-statistics-git"
-		srdfdom
-		git
-		"urdfdom-headers"
-		"hpp-pinocchio-git"
-		"boost-libs"
-		"gcc-fortran"
-		"console-bridge"
-		eigenpy
-		"python2-numpy"
-		romeo_description
-		tinyxml
-		omniorbpy
-		"hpp-fcl"
-		qt4
-		omniorb
-		"metapod-git"
-		"pinocchio-git"
-		lua51
-		tabula
-		curl
-		"hpp-model"
-		cmake
-		"hpp-model-urdf"
-		"srdfdom-git"
-		assimp
-		"gepetto-viewer-git"
-		"resource-retriever"
-		freeglut
-		boost
-			"pinocchio-git" -> "metapod-git"
-			"pinocchio-git" -> lua51
-			"pinocchio-git" -> cmake
-			"pinocchio-git" -> git
-			"pinocchio-git" -> eigen32
-			"pinocchio-git" -> eigenpy
-			"pinocchio-git" -> "hpp-fcl"
-			"pinocchio-git" -> urdfdom
-			eigen32 -> qt4
-			eigen32 -> cmake
-			eigen32 -> freeglut
-			eigen32 -> "gcc-fortran"
-			eigen32 -> fftw
-			eigen32 -> qt4
-			eigen32 -> suitesparse
-			eigen32 -> boost
-			"console-bridge" -> cmake
-			"console-bridge" -> "gcc-libs"
-			"hpp-model" -> assimp
-			"hpp-model" -> cmake
-			"hpp-model" -> eigen32
-			"hpp-model" -> "hpp-util-git"
-			"hpp-model" -> "hpp-fcl"
-			pinocchio -> "metapod-git"
-			pinocchio -> lua51
-			pinocchio -> cmake
-			pinocchio -> eigen32
-			pinocchio -> "hpp-fcl"
-			pinocchio -> eigenpy
-			pinocchio -> urdfdom
-			urdfdom -> cmake
-			urdfdom -> tinyxml
-			urdfdom -> "console-bridge"
-			urdfdom -> "urdfdom-headers"
-			"resource-retriever" -> cmake
-			"resource-retriever" -> urdfdom
-			"resource-retriever" -> curl
-			"resource-retriever" -> boost
-			"gepetto-viewer-corba-git" -> doxygen
-			"gepetto-viewer-corba-git" -> cmake
-			"gepetto-viewer-corba-git" -> git
-			"gepetto-viewer-corba-git" -> "gepetto-viewer-git"
-			"gepetto-viewer-corba-git" -> omniorb
-			"gepetto-viewer-corba-git" -> qt4
-			"gepetto-viewer-corba-git" -> omniorbpy
-			"srdfdom-git" -> doxygen
-			"srdfdom-git" -> cmake
-			"srdfdom-git" -> git
-			"srdfdom-git" -> boost
-			"srdfdom-git" -> tinyxml
-			"srdfdom-git" -> "urdfdom-headers"
-			"srdfdom-git" -> "console-bridge"
-			"hpp-constraints" -> cmake
-			"hpp-constraints" -> "hpp-model"
-			"gepetto-viewer-git" -> doxygen
-			"gepetto-viewer-git" -> cmake
-			"gepetto-viewer-git" -> git
-			"gepetto-viewer-git" -> boost
-			"gepetto-viewer-git" -> urdfdom
-			"gepetto-viewer-git" -> "openscenegraph-qt4"
-			tabula -> "java-runtime"
-			"urdfdom-headers" -> cmake
-			"hpp-util-git" -> doxygen
-			"hpp-util-git" -> cmake
-			"hpp-util-git" -> git
-			"hpp-util-git" -> boost
-			"hpp-util-git" -> tinyxml
-			"hpp-fcl" -> cmake
-			"hpp-fcl" -> eigen32
-			"hpp-fcl" -> assimp
-			"hpp-pinocchio-git" -> "hpp-model"
-			"hpp-pinocchio-git" -> "hpp-model-urdf"
-			"hpp-pinocchio-git" -> romeo_description
-			"hpp-pinocchio-git" -> hpp_environments
-			"hpp-pinocchio-git" -> doxygen
-			"hpp-pinocchio-git" -> cmake
-			"hpp-pinocchio-git" -> git
-			"hpp-pinocchio-git" -> boost
-			"hpp-pinocchio-git" -> pinocchio
-			"hpp-pinocchio-git" -> assimp
-			"hpp-pinocchio-git" -> "hpp-util-git"
-			"hpp-pinocchio-git" -> "hpp-fcl"
-			"hpp-pinocchio-git" -> "resource-retriever"
-			"hpp-model-urdf" -> cmake
-			"hpp-model-urdf" -> assimp
-			"hpp-model-urdf" -> "hpp-util-git"
-			"hpp-model-urdf" -> "hpp-model"
-			"hpp-model-urdf" -> urdf
-			"hpp-model-urdf" -> "resource-retriever"
-			"hpp-model-urdf" -> urdfdom
-			"hpp-model-urdf" -> srdfdom
-			"hpp-statistics-git" -> doxygen
-			"hpp-statistics-git" -> cmake
-			"hpp-statistics-git" -> git
-			"hpp-statistics-git" -> "hpp-util-git"
-			eigenpy -> doxygen
-			eigenpy -> cmake
-			eigenpy -> eigen32
-			eigenpy -> boost
-			eigenpy -> "python2-numpy"
-			eigenpy -> "boost-libs"
-			"urdf-git" -> doxygen
-			"urdf-git" -> cmake
-			"urdf-git" -> git
-			"urdf-git" -> boost
-			"urdf-git" -> urdfdom
+	"console-bridge"
+	"urdfdom-headers"
+	assimp
+	git
+	omniorb
+	"hpp-pinocchio-git"
+	pinocchio
+	boost
+	"openscenegraph-qt4"
+	lua51
+	suitesparse
+	"gcc-libs"
+	tabula
+	"python2-numpy"
+	"gcc-fortran"
+	freeglut
+	urdfdom
+	eigenpy
+	"hpp-fcl"
+	romeo_description
+	"srdfdom-git"
+	"urdf-git"
+	"hpp-model"
+	"java-runtime"
+	"gepetto-viewer-git"
+	fftw
+	tinyxml
+	"metapod-git"
+	qt4
+	"hpp-constraints"
+	eigen32
+	"hpp-statistics-git"
+	"pinocchio-git"
+	"boost-libs"
+	hpp_environments
+	omniorbpy
+	doxygen
+	"gepetto-viewer-corba-git"
+	curl
+	cmake
+	"hpp-model-urdf"
+	"resource-retriever"
+	"hpp-util-git"
+	urdfdom -> cmake
+	urdfdom -> tinyxml
+	urdfdom -> "console-bridge"
+	urdfdom -> "urdfdom-headers"
+	pinocchio -> "metapod-git"
+	pinocchio -> lua51
+	pinocchio -> cmake
+	pinocchio -> eigen32
+	pinocchio -> "hpp-fcl"
+	pinocchio -> eigenpy
+	pinocchio -> urdfdom
+	"hpp-fcl" -> cmake
+	"hpp-fcl" -> eigen32
+	"hpp-fcl" -> assimp
+	"hpp-model-urdf" -> cmake
+	"hpp-model-urdf" -> assimp
+	"hpp-model-urdf" -> "hpp-util-git"
+	"hpp-model-urdf" -> "hpp-model"
+	"hpp-model-urdf" -> "urdf-git"
+	"hpp-model-urdf" -> "resource-retriever"
+	"hpp-model-urdf" -> urdfdom
+	"hpp-model-urdf" -> "srdfdom-git"
+	"hpp-pinocchio-git" -> "hpp-model"
+	"hpp-pinocchio-git" -> "hpp-model-urdf"
+	"hpp-pinocchio-git" -> romeo_description
+	"hpp-pinocchio-git" -> hpp_environments
+	"hpp-pinocchio-git" -> doxygen
+	"hpp-pinocchio-git" -> cmake
+	"hpp-pinocchio-git" -> git
+	"hpp-pinocchio-git" -> boost
+	"hpp-pinocchio-git" -> pinocchio
+	"hpp-pinocchio-git" -> assimp
+	"hpp-pinocchio-git" -> "hpp-util-git"
+	"hpp-pinocchio-git" -> "hpp-fcl"
+	"hpp-pinocchio-git" -> "resource-retriever"
+	"gepetto-viewer-git" -> doxygen
+	"gepetto-viewer-git" -> cmake
+	"gepetto-viewer-git" -> git
+	"gepetto-viewer-git" -> boost
+	"gepetto-viewer-git" -> urdfdom
+	"gepetto-viewer-git" -> "openscenegraph-qt4"
+	"urdfdom-headers" -> cmake
+	"hpp-util-git" -> doxygen
+	"hpp-util-git" -> cmake
+	"hpp-util-git" -> git
+	"hpp-util-git" -> boost
+	"hpp-util-git" -> tinyxml
+	"srdfdom-git" -> doxygen
+	"srdfdom-git" -> cmake
+	"srdfdom-git" -> git
+	"srdfdom-git" -> boost
+	"srdfdom-git" -> tinyxml
+	"srdfdom-git" -> "urdfdom-headers"
+	"srdfdom-git" -> "console-bridge"
+	"hpp-constraints" -> cmake
+	"hpp-constraints" -> "hpp-model"
+	eigenpy -> doxygen
+	eigenpy -> cmake
+	eigenpy -> eigen32
+	eigenpy -> boost
+	eigenpy -> "python2-numpy"
+	eigenpy -> "boost-libs"
+	eigen32 -> qt4
+	eigen32 -> cmake
+	eigen32 -> freeglut
+	eigen32 -> "gcc-fortran"
+	eigen32 -> fftw
+	eigen32 -> qt4
+	eigen32 -> suitesparse
+	eigen32 -> boost
+	"hpp-statistics-git" -> doxygen
+	"hpp-statistics-git" -> cmake
+	"hpp-statistics-git" -> git
+	"hpp-statistics-git" -> "hpp-util-git"
+	"urdf-git" -> doxygen
+	"urdf-git" -> cmake
+	"urdf-git" -> git
+	"urdf-git" -> boost
+	"urdf-git" -> urdfdom
+	"pinocchio-git" -> "metapod-git"
+	"pinocchio-git" -> lua51
+	"pinocchio-git" -> cmake
+	"pinocchio-git" -> git
+	"pinocchio-git" -> eigen32
+	"pinocchio-git" -> eigenpy
+	"pinocchio-git" -> "hpp-fcl"
+	"pinocchio-git" -> urdfdom
+	tabula -> "java-runtime"
+	"resource-retriever" -> cmake
+	"resource-retriever" -> urdfdom
+	"resource-retriever" -> curl
+	"resource-retriever" -> boost
+	"gepetto-viewer-corba-git" -> doxygen
+	"gepetto-viewer-corba-git" -> cmake
+	"gepetto-viewer-corba-git" -> git
+	"gepetto-viewer-corba-git" -> "gepetto-viewer-git"
+	"gepetto-viewer-corba-git" -> omniorb
+	"gepetto-viewer-corba-git" -> qt4
+	"gepetto-viewer-corba-git" -> omniorbpy
+	"hpp-model" -> assimp
+	"hpp-model" -> cmake
+	"hpp-model" -> eigen32
+	"hpp-model" -> "hpp-util-git"
+	"hpp-model" -> "hpp-fcl"
+	"console-bridge" -> cmake
+	"console-bridge" -> "gcc-libs"
 }
