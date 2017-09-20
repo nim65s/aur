@@ -58,9 +58,9 @@
 [submodule "gepetto-viewer-corba-git"]
 	path = gepetto-viewer-corba-git
 	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer-corba-git.git
-[submodule "hpp-model-git"]
-	path = hpp-model-git
-	url = git+ssh://aur@aur.archlinux.org/hpp-model-git.git
 [submodule "hpp-model-urdf-git"]
 	path = hpp-model-urdf-git
 	url = git+ssh://aur@aur.archlinux.org/hpp-model-urdf-git.git
+[submodule "hpp-model-git"]
+	path = hpp-model-git
+	url = git+ssh://aur@aur.archlinux.org/hpp-model-git.git
