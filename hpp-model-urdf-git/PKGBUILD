@@ -3,13 +3,13 @@
 _pkgname=hpp-model-urdf
 _pkgver=3.2
 pkgname=${_pkgname}-git
-pkgver=3.2
+pkgver=3.2.r166.c6eff38
 pkgrel=1
 pkgdesc="Implements a library that allows you to load an hpp-model robot by parsing an urdf robot model file."
 arch=('i686' 'x86_64')
 url="https://github.com/humanoid-path-planner/$pkgname"
 license=('LGPL3')
-depends=('assimp' 'hpp-util-git' 'hpp-model' 'urdf-git' 'resource-retriever' 'urdfdom' 'srdfdom-git')
+depends=('assimp' 'hpp-util-git' 'hpp-model-git' 'urdf-git' 'resource-retriever' 'urdfdom' 'srdfdom-git')
 makedepends=('cmake')
 conflicts=($_pkgname)
 provides=($_pkgname)
