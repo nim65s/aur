@@ -1,52 +1,52 @@
 digraph dependencies {
 	graph [rankdir=RL]
-	pinocchio
-	boost
-	"openscenegraph-qt4"
-	"hpp-fcl"
-	"urdfdom-headers"
-	"hpp-model-urdf"
-	"python2-numpy"
-	romeo_description
-	curl
-	assimp
-	cmake
-	"hpp-util-git"
-	eigen
-	"metapod-git"
-	qt4
-	"gcc-libs"
-	"java-runtime"
-	"hpp-constraints"
-	"gcc-fortran"
-	"console-bridge"
-	"pinocchio-git"
-	freeglut
-	eigenpy
-	suitesparse
-	fftw
-	"srdfdom-git"
 	"boost-libs"
-	"hpp-statistics-git"
-	"resource-retriever"
-	urdfdom
-	lua51
-	tabula
-	tinyxml
-	git
-	hpp_environments
-	"gepetto-viewer-corba-git"
-	"hpp-fcl-git"
-	"hpp-model-urdf-git"
-	omniorbpy
-	"urdf-git"
-	"gepetto-viewer-git"
+	"openscenegraph-qt4"
 	"hpp-model"
-	omniorb
-	"hpp-pinocchio-git"
-	doxygen
+	suitesparse
+	omniorbpy
+	cmake
+	lua51
+	"hpp-util-git"
 	eigen32
+	"hpp-fcl-git"
+	"gcc-fortran"
+	"urdfdom-headers"
+	curl
+	"pinocchio-git"
+	"console-bridge"
+	pinocchio
+	"java-runtime"
 	"hpp-model-git"
+	"hpp-fcl"
+	"hpp-model-urdf-git"
+	"resource-retriever"
+	eigenpy
+	"srdfdom-git"
+	git
+	boost
+	"hpp-statistics-git"
+	"gepetto-viewer-git"
+	"python2-numpy"
+	"hpp-model-urdf"
+	"metapod-git"
+	fftw
+	assimp
+	omniorb
+	urdfdom
+	tabula
+	"gepetto-viewer-corba-git"
+	doxygen
+	"gcc-libs"
+	eigen
+	tinyxml
+	hpp_environments
+	romeo_description
+	"hpp-pinocchio-git"
+	qt4
+	freeglut
+	"urdf-git"
+	"hpp-constraints"
 	urdfdom -> cmake
 	urdfdom -> tinyxml
 	urdfdom -> "console-bridge"
@@ -54,12 +54,12 @@ digraph dependencies {
 	pinocchio -> "metapod-git"
 	pinocchio -> lua51
 	pinocchio -> cmake
-	pinocchio -> eigen32
+	pinocchio -> eigen
 	pinocchio -> "hpp-fcl"
 	pinocchio -> eigenpy
 	pinocchio -> urdfdom
 	"hpp-fcl" -> cmake
-	"hpp-fcl" -> eigen32
+	"hpp-fcl" -> eigen
 	"hpp-fcl" -> assimp
 	"hpp-model-urdf" -> cmake
 	"hpp-model-urdf" -> assimp
@@ -104,7 +104,7 @@ digraph dependencies {
 	"hpp-constraints" -> cmake
 	"hpp-constraints" -> "hpp-model"
 	"hpp-fcl-git" -> cmake
-	"hpp-fcl-git" -> eigen32
+	"hpp-fcl-git" -> eigen
 	"hpp-fcl-git" -> assimp
 	eigenpy -> doxygen
 	eigenpy -> cmake
