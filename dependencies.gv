@@ -1,48 +1,52 @@
 digraph dependencies {
 	graph [rankdir=RL]
-	"console-bridge"
-	"urdfdom-headers"
-	assimp
-	git
-	omniorb
-	"hpp-pinocchio-git"
 	pinocchio
 	boost
 	"openscenegraph-qt4"
-	lua51
-	suitesparse
-	"gcc-libs"
-	tabula
-	"python2-numpy"
-	"gcc-fortran"
-	freeglut
-	urdfdom
-	eigenpy
 	"hpp-fcl"
+	"urdfdom-headers"
+	"hpp-model-urdf"
+	"python2-numpy"
 	romeo_description
-	"srdfdom-git"
-	"urdf-git"
-	"hpp-model"
-	"java-runtime"
-	"gepetto-viewer-git"
-	fftw
-	tinyxml
+	curl
+	assimp
+	cmake
+	"hpp-util-git"
+	eigen
 	"metapod-git"
 	qt4
+	"gcc-libs"
+	"java-runtime"
 	"hpp-constraints"
-	eigen32
-	"hpp-statistics-git"
+	"gcc-fortran"
+	"console-bridge"
 	"pinocchio-git"
+	freeglut
+	eigenpy
+	suitesparse
+	fftw
+	"srdfdom-git"
 	"boost-libs"
-	hpp_environments
-	omniorbpy
-	doxygen
-	"gepetto-viewer-corba-git"
-	curl
-	cmake
-	"hpp-model-urdf"
+	"hpp-statistics-git"
 	"resource-retriever"
-	"hpp-util-git"
+	urdfdom
+	lua51
+	tabula
+	tinyxml
+	git
+	hpp_environments
+	"gepetto-viewer-corba-git"
+	"hpp-fcl-git"
+	"hpp-model-urdf-git"
+	omniorbpy
+	"urdf-git"
+	"gepetto-viewer-git"
+	"hpp-model"
+	omniorb
+	"hpp-pinocchio-git"
+	doxygen
+	eigen32
+	"hpp-model-git"
 	urdfdom -> cmake
 	urdfdom -> tinyxml
 	urdfdom -> "console-bridge"
@@ -99,9 +103,12 @@ digraph dependencies {
 	"srdfdom-git" -> "console-bridge"
 	"hpp-constraints" -> cmake
 	"hpp-constraints" -> "hpp-model"
+	"hpp-fcl-git" -> cmake
+	"hpp-fcl-git" -> eigen32
+	"hpp-fcl-git" -> assimp
 	eigenpy -> doxygen
 	eigenpy -> cmake
-	eigenpy -> eigen32
+	eigenpy -> eigen
 	eigenpy -> boost
 	eigenpy -> "python2-numpy"
 	eigenpy -> "boost-libs"
@@ -122,13 +129,26 @@ digraph dependencies {
 	"urdf-git" -> git
 	"urdf-git" -> boost
 	"urdf-git" -> urdfdom
+	"hpp-model-urdf-git" -> cmake
+	"hpp-model-urdf-git" -> assimp
+	"hpp-model-urdf-git" -> "hpp-util-git"
+	"hpp-model-urdf-git" -> "hpp-model-git"
+	"hpp-model-urdf-git" -> "urdf-git"
+	"hpp-model-urdf-git" -> "resource-retriever"
+	"hpp-model-urdf-git" -> urdfdom
+	"hpp-model-urdf-git" -> "srdfdom-git"
+	"hpp-model-git" -> assimp
+	"hpp-model-git" -> cmake
+	"hpp-model-git" -> eigen32
+	"hpp-model-git" -> "hpp-util-git"
+	"hpp-model-git" -> "hpp-fcl-git"
 	"pinocchio-git" -> "metapod-git"
 	"pinocchio-git" -> lua51
+	"pinocchio-git" -> "hpp-fcl-git"
 	"pinocchio-git" -> cmake
 	"pinocchio-git" -> git
 	"pinocchio-git" -> eigen32
 	"pinocchio-git" -> eigenpy
-	"pinocchio-git" -> "hpp-fcl"
 	"pinocchio-git" -> urdfdom
 	tabula -> "java-runtime"
 	"resource-retriever" -> cmake
