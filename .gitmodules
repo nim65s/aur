@@ -64,3 +64,9 @@
 [submodule "hpp-model-git"]
 	path = hpp-model-git
 	url = git+ssh://aur@aur.archlinux.org/hpp-model-git.git
+[submodule "hpp-corbaserver"]
+	path = hpp-corbaserver
+	url = git+ssh://aur@aur.archlinux.org/hpp-corbaserver.git
+[submodule "hpp-fcl-git"]
+	path = hpp-fcl-git
+	url = git+ssh://aur@aur.archlinux.org/hpp-fcl-git.git
