@@ -7,9 +7,6 @@
 [submodule "tabula"]
 	path = tabula
 	url = git+ssh://aur@aur.archlinux.org/tabula.git
-[submodule "eigen32"]
-	path = eigen32
-	url = git+ssh://aur@aur.archlinux.org/eigen32.git
 [submodule "eigenpy"]
 	path = eigenpy
 	url = git+ssh://aur@aur.archlinux.org/eigenpy.git
