@@ -67,3 +67,6 @@
 [submodule "hpp-fcl-git"]
 	path = hpp-fcl-git
 	url = git+ssh://aur@aur.archlinux.org/hpp-fcl-git.git
+[submodule "xcursor-gruppled-lite"]
+	path = xcursor-gruppled-lite
+	url = git+ssh://aur@aur.archlinux.org/xcursor-gruppled-lite.git
