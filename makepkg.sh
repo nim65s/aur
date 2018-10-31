@@ -1,8 +1,10 @@
 #!/bin/bash
 
-makepkg || exit
+set -ex
 
-namcap *.pkg.tar.xz || exit
+makepkg
+
+namcap *.pkg.tar.xz
 
 makepkg --printsrcinfo > .SRCINFO
 
