@@ -1,8 +1,20 @@
 FROM base/archlinux
-RUN echo -e "[archlinuxfr]\nSigLevel = Never\nServer = http://repo.archlinux.fr/x86_64" >> /etc/pacman.conf
-RUN pacman -Syu --noconfirm yaourt base-devel
-RUN useradd -m -G wheel user
-RUN echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+RUN pacman -Syu --noconfirm \
+    base-devel \
+    git \
+ && pacman -Scc
+
+RUN useradd -m -G wheel user \
+ && echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
 ENV MAKEFLAGS "-j 8"
 USER user
 WORKDIR /home/user
+
+RUN git clone https://aur.archlinux.org/yay.git \
+ && cd yay \
+ && makepkg -si --noconfirm \
+ && cd \
+ && rm -rf yay \
+ && yay -Scc
