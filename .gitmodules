@@ -73,3 +73,9 @@
 [submodule "osgqt"]
 	path = osgqt
 	url = git+ssh://aur@aur.archlinux.org/osgqt.git
+[submodule "cppad"]
+	path = cppad
+	url = ssh://aur@aur.archlinux.org/cppad.git
+[submodule "cppadcodegen"]
+	path = cppadcodegen
+	url = ssh://aur@aur.archlinux.org/cppadcodegen.git
