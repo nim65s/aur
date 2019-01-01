@@ -8,4 +8,4 @@ namcap *.pkg.tar.xz
 
 makepkg --printsrcinfo > .SRCINFO
 
-rm -rf pkg src *.tar.*
+rm -rf pkg src *.pkg.tar.*

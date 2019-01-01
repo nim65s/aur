@@ -79,3 +79,6 @@
 [submodule "cppadcodegen"]
 	path = cppadcodegen
 	url = ssh://aur@aur.archlinux.org/cppadcodegen.git
+[submodule "med"]
+	path = med
+	url = ssh://aur@aur.archlinux.org/med.git
