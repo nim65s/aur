@@ -49,6 +49,12 @@
 [submodule "urdf-git"]
 	path = urdf-git
 	url = git+ssh://aur@aur.archlinux.org/urdf-git.git
+[submodule "gepetto-viewer"]
+	path = gepetto-viewer
+	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer.git
+[submodule "gepetto-viewer-corba"]
+	path = gepetto-viewer-corba
+	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer-corba.git
 [submodule "gepetto-viewer-git"]
 	path = gepetto-viewer-git
 	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer-git.git
