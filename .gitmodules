@@ -88,3 +88,6 @@
 [submodule "med"]
 	path = med
 	url = ssh://aur@aur.archlinux.org/med.git
+[submodule "med-openmpi"]
+	path = med-openmpi
+	url = ssh://aur@aur.archlinux.org/med-openmpi.git
