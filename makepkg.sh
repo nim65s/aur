@@ -7,5 +7,3 @@ makepkg
 namcap *.pkg.tar.xz
 
 makepkg --printsrcinfo > .SRCINFO
-
-rm -rf pkg src *.pkg.tar.*
