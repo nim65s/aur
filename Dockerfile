@@ -12,9 +12,9 @@ ENV MAKEFLAGS "-j 8"
 USER user
 WORKDIR /home/user
 
-RUN git clone https://aur.archlinux.org/yay.git \
- && cd yay \
+RUN git clone https://aur.archlinux.org/yay-bin.git \
+ && cd yay-bin \
  && makepkg -si --noconfirm \
  && cd \
- && rm -rf yay \
+ && rm -rf yay-bin \
  && yay -Scc
