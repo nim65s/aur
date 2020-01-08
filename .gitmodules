@@ -81,16 +81,16 @@
 	url = git+ssh://aur@aur.archlinux.org/osgqt.git
 [submodule "cppad"]
 	path = cppad
-	url = ssh://aur@aur.archlinux.org/cppad.git
+	url = git+ssh://aur@aur.archlinux.org/cppad.git
 [submodule "cppadcodegen"]
 	path = cppadcodegen
-	url = ssh://aur@aur.archlinux.org/cppadcodegen.git
+	url = git+ssh://aur@aur.archlinux.org/cppadcodegen.git
 [submodule "med"]
 	path = med
-	url = ssh://aur@aur.archlinux.org/med.git
+	url = git+ssh://aur@aur.archlinux.org/med.git
 [submodule "med-openmpi"]
 	path = med-openmpi
-	url = ssh://aur@aur.archlinux.org/med-openmpi.git
+	url = git+ssh://aur@aur.archlinux.org/med-openmpi.git
 [submodule "openscenegraph-dae"]
 	path = openscenegraph-dae
-	url = ssh://aur@aur.archlinux.org/openscenegraph-dae.git
+	url = git+ssh://aur@aur.archlinux.org/openscenegraph-dae.git
