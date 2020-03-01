@@ -94,3 +94,6 @@
 [submodule "openscenegraph-dae"]
 	path = openscenegraph-dae
 	url = git+ssh://aur@aur.archlinux.org/openscenegraph-dae.git
+[submodule "aur-omniorbpy"]
+	path = aur-omniorbpy
+	url = git@github.com:nim65s/aur-omniorbpy.git
