@@ -97,3 +97,6 @@
 [submodule "aur-omniorbpy"]
 	path = aur-omniorbpy
 	url = git@github.com:nim65s/aur-omniorbpy.git
+[submodule "eiquadprog"]
+	path = eiquadprog
+	url = git+ssh://aur@aur.archlinux.org/eiquadprog.git
