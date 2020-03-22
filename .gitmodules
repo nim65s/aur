@@ -100,3 +100,6 @@
 [submodule "eiquadprog"]
 	path = eiquadprog
 	url = git+ssh://aur@aur.archlinux.org/eiquadprog.git
+[submodule "example-robot-data"]
+	path = example-robot-data
+	url = git+ssh://aur@aur.archlinux.org/example-robot-data.git
