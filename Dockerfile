@@ -18,3 +18,6 @@ RUN git clone https://aur.archlinux.org/yay-bin.git \
  && cd \
  && rm -rf yay-bin \
  && yay -Scc
+
+RUN curl https://github.com/jcarpent.gpg | gpg --import \
+ && curl https://github.com/nim65s.gpg | gpg --import
