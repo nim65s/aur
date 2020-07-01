@@ -103,3 +103,6 @@
 [submodule "crocoddyl"]
 	path = crocoddyl
 	url = ssh://aur@aur.archlinux.org/crocoddyl.git
+[submodule "tsid"]
+	path = tsid
+	url = ssh://aur@aur.archlinux.org/tsid.git
