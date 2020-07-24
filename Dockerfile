@@ -8,7 +8,7 @@ RUN pacman -Syu --noconfirm \
 RUN useradd -m -G wheel user \
  && echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-ENV MAKEFLAGS "-j 8"
+ENV MAKEFLAGS="-j4" CTEST_OUTPUT_ON_FAILURE=1
 USER user
 WORKDIR /home/user
 
