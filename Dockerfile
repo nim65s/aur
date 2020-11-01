@@ -1,7 +1,6 @@
-FROM archlinux
+FROM archlinux/archlinux:base-devel
 
-RUN pacman -Syu --noconfirm \
-    base-devel \
+RUN pacman -Sy --noconfirm \
     git \
  && pacman -Scc
 
