@@ -102,10 +102,13 @@
 	url = git+ssh://aur@aur.archlinux.org/example-robot-data.git
 [submodule "crocoddyl"]
 	path = crocoddyl
-	url = ssh://aur@aur.archlinux.org/crocoddyl.git
+	url = git+ssh://aur@aur.archlinux.org/crocoddyl.git
 [submodule "tsid"]
 	path = tsid
-	url = ssh://aur@aur.archlinux.org/tsid.git
+	url = git+ssh://aur@aur.archlinux.org/tsid.git
 [submodule "pololu-jrk-g2-software"]
 	path = pololu-jrk-g2-software
-	url = ssh://aur@aur.archlinux.org/pololu-jrk-g2-software.git
+	url = git+ssh://aur@aur.archlinux.org/pololu-jrk-g2-software.git
+[submodule "osgqt-qt4"]
+	path = osgqt-qt4
+	url = git+ssh://aur@aur.archlinux.org/osgqt-qt4.git
