@@ -112,3 +112,6 @@
 [submodule "osgqt-qt4"]
 	path = osgqt-qt4
 	url = git+ssh://aur@aur.archlinux.org/osgqt-qt4.git
+[submodule "aarch64-linux-gnu-pkg-config"]
+	path = aarch64-linux-gnu-pkg-config
+	url = ssh://aur@aur.archlinux.org/aarch64-linux-gnu-pkg-config.git
