@@ -24,7 +24,7 @@ def deps(pkg):
     json = requests.get('https://aur.archlinux.org/rpc/', {'v': 5, 'type': 'info', 'arg': pkg}).json()
     ret = []
     for field in ['OptDepends', 'MakeDepends', 'Depends']:
-        if field in json['results'][0]:
+        if json['results'] and field in json['results'][0]:
             ret += [dep.split(':')[0] for dep in json['results'][0][field]]
     return ret
 

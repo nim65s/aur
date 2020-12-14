@@ -1,74 +1,152 @@
 digraph dependencies {
 	graph [rankdir=RL]
-	"boost-libs"
-	"openscenegraph-qt4"
-	"hpp-model"
-	suitesparse
-	omniorbpy
-	cmake
-	lua51
-	"hpp-util-git"
-	eigen32
-	"hpp-fcl-git"
-	"gcc-fortran"
 	"urdfdom-headers"
-	curl
-	"pinocchio-git"
-	"console-bridge"
-	pinocchio
-	"java-runtime"
-	"hpp-model-git"
-	"hpp-fcl"
-	"hpp-model-urdf-git"
-	"resource-retriever"
-	eigenpy
-	"srdfdom-git"
-	git
-	boost
-	"hpp-statistics-git"
-	"gepetto-viewer-git"
-	"python2-numpy"
-	"hpp-model-urdf"
-	"metapod-git"
-	fftw
+	"hpp-util-git"
 	assimp
-	omniorb
-	urdfdom
-	tabula
-	"gepetto-viewer-corba-git"
-	doxygen
-	"gcc-libs"
-	eigen
-	tinyxml
-	hpp_environments
-	romeo_description
-	"hpp-pinocchio-git"
-	qt4
-	freeglut
-	"urdf-git"
+	ffmpeg
+	"xine-lib"
+	pth
+	"arm-linux-gnueabihf-binutils"
+	python
+	git
 	"hpp-constraints"
-	urdfdom -> cmake
-	urdfdom -> tinyxml
-	urdfdom -> "console-bridge"
-	urdfdom -> "urdfdom-headers"
-	pinocchio -> "metapod-git"
-	pinocchio -> lua51
+	librsvg
+	gdal
+	eiquadprog
+	"boost-libs"
+	openmpi
+	"gepetto-viewer-corba"
+	lua51
+	"hpp-fcl-git"
+	libvncserver
+	"resource-retriever"
+	llvm
+	"gepetto-viewer-corba-git"
+	"arm-linux-gnueabihf-musl"
+	"hpp-statistics-git"
+	lua52
+	mesa
+	"hpp-model-urdf"
+	openexr
+	tabula
+	osgqt
+	cmake
+	jasper
+	python2
+	"arm-linux-gnueabihf-gcc"
+	"hpp-corbaserver"
+	cppad
+	urdfdom
+	clang
+	openscenegraph
+	omniorb
+	octomap
+	"urdf-git"
+	qt4
+	"hdf5-openmpi"
+	"med-openmpi"
+	"gcc-fortran"
+	"pinocchio-git"
+	"libusbp-1"
+	"hpp-pinocchio-git"
+	"srdfdom-git"
+	swig
+	glib2
+	"example-robot-data"
+	"metapod-git"
+	"openscenegraph-qt4"
+	curl
+	"console-bridge"
+	"python-scipy"
+	doxygen
+	"gepetto-viewer"
+	"openscenegraph-dae"
+	"poppler-glib"
+	cppadcodegen
+	eigen
+	"python-numpy"
+	giflib
+	"xcursor-gruppled-lite"
+	boost
+	"python-omniorbpy"
+	pinocchio
+	tk
+	omniorbpy
+	"osgqt-qt4"
+	".mypy_cache"
+	tinyxml
+	tsid
+	"gcc-libs"
+	valgrind
+	hpp_environments
+	"hpp-fcl"
+	crocoddyl
+	med
+	"gepetto-viewer-git"
+	"pololu-jrk-g2-software"
+	"java-runtime"
+	"hpp-model"
+	romeo_description
+	eigenpy
+	"qt5-base"
+	"aarch64-linux-gnu-pkg-config"
+	eigenpy -> doxygen
+	eigenpy -> cmake
+	eigenpy -> eigen
+	eigenpy -> boost
+	eigenpy -> "python-numpy"
+	eigenpy -> "boost-libs"
+	"hpp-fcl" -> doxygen
+	"hpp-fcl" -> cmake
+	"hpp-fcl" -> eigen
+	"hpp-fcl" -> assimp
+	"hpp-fcl" -> eigenpy
+	"hpp-fcl" -> octomap
+	"hpp-util-git" -> doxygen
+	"hpp-util-git" -> cmake
+	"hpp-util-git" -> git
+	"hpp-util-git" -> boost
+	"hpp-util-git" -> tinyxml
+	pinocchio -> doxygen
+	pinocchio -> lua52
+	pinocchio -> cppad
+	pinocchio -> cppadcodegen
 	pinocchio -> cmake
 	pinocchio -> eigen
 	pinocchio -> "hpp-fcl"
 	pinocchio -> eigenpy
 	pinocchio -> urdfdom
-	"hpp-fcl" -> cmake
-	"hpp-fcl" -> eigen
-	"hpp-fcl" -> assimp
-	"hpp-model-urdf" -> cmake
-	"hpp-model-urdf" -> assimp
-	"hpp-model-urdf" -> "hpp-util-git"
-	"hpp-model-urdf" -> "hpp-model"
-	"hpp-model-urdf" -> "urdf-git"
-	"hpp-model-urdf" -> "resource-retriever"
-	"hpp-model-urdf" -> urdfdom
-	"hpp-model-urdf" -> "srdfdom-git"
+	"pinocchio-git" -> "metapod-git"
+	"pinocchio-git" -> lua51
+	"pinocchio-git" -> "hpp-fcl-git"
+	"pinocchio-git" -> cmake
+	"pinocchio-git" -> git
+	"pinocchio-git" -> eigen
+	"pinocchio-git" -> eigenpy
+	"pinocchio-git" -> urdfdom
+	tabula -> "java-runtime"
+	osgqt -> cmake
+	osgqt -> openscenegraph
+	osgqt -> "qt5-base"
+	"hpp-fcl-git" -> cmake
+	"hpp-fcl-git" -> eigen
+	"hpp-fcl-git" -> assimp
+	"console-bridge" -> cmake
+	"console-bridge" -> "gcc-libs"
+	urdfdom -> cmake
+	urdfdom -> tinyxml
+	urdfdom -> "console-bridge"
+	urdfdom -> "urdfdom-headers"
+	crocoddyl -> doxygen
+	crocoddyl -> cmake
+	crocoddyl -> eigen
+	crocoddyl -> pinocchio
+	crocoddyl -> eigenpy
+	crocoddyl -> "example-robot-data"
+	crocoddyl -> "python-scipy"
+	"urdfdom-headers" -> cmake
+	"hpp-constraints" -> cmake
+	"hpp-constraints" -> "hpp-model"
 	"hpp-pinocchio-git" -> "hpp-model"
 	"hpp-pinocchio-git" -> "hpp-model-urdf"
 	"hpp-pinocchio-git" -> romeo_description
@@ -82,18 +160,23 @@ digraph dependencies {
 	"hpp-pinocchio-git" -> "hpp-util-git"
 	"hpp-pinocchio-git" -> "hpp-fcl"
 	"hpp-pinocchio-git" -> "resource-retriever"
-	"gepetto-viewer-git" -> doxygen
-	"gepetto-viewer-git" -> cmake
-	"gepetto-viewer-git" -> git
-	"gepetto-viewer-git" -> boost
-	"gepetto-viewer-git" -> urdfdom
-	"gepetto-viewer-git" -> "openscenegraph-qt4"
-	"urdfdom-headers" -> cmake
-	"hpp-util-git" -> doxygen
-	"hpp-util-git" -> cmake
-	"hpp-util-git" -> git
-	"hpp-util-git" -> boost
-	"hpp-util-git" -> tinyxml
+	"med-openmpi" -> "gcc-fortran"
+	"med-openmpi" -> swig
+	"med-openmpi" -> openmpi
+	"med-openmpi" -> cmake
+	"med-openmpi" -> "hdf5-openmpi"
+	"med-openmpi" -> tk
+	"med-openmpi" -> python
+	"example-robot-data" -> cmake
+	"example-robot-data" -> pinocchio
+	"resource-retriever" -> cmake
+	"resource-retriever" -> urdfdom
+	"resource-retriever" -> curl
+	"resource-retriever" -> boost
+	"hpp-statistics-git" -> doxygen
+	"hpp-statistics-git" -> cmake
+	"hpp-statistics-git" -> git
+	"hpp-statistics-git" -> "hpp-util-git"
 	"srdfdom-git" -> doxygen
 	"srdfdom-git" -> cmake
 	"srdfdom-git" -> git
@@ -101,60 +184,22 @@ digraph dependencies {
 	"srdfdom-git" -> tinyxml
 	"srdfdom-git" -> "urdfdom-headers"
 	"srdfdom-git" -> "console-bridge"
-	"hpp-constraints" -> cmake
-	"hpp-constraints" -> "hpp-model"
-	"hpp-fcl-git" -> cmake
-	"hpp-fcl-git" -> eigen
-	"hpp-fcl-git" -> assimp
-	eigenpy -> doxygen
-	eigenpy -> cmake
-	eigenpy -> eigen
-	eigenpy -> boost
-	eigenpy -> "python2-numpy"
-	eigenpy -> "boost-libs"
-	eigen32 -> qt4
-	eigen32 -> cmake
-	eigen32 -> freeglut
-	eigen32 -> "gcc-fortran"
-	eigen32 -> fftw
-	eigen32 -> qt4
-	eigen32 -> suitesparse
-	eigen32 -> boost
-	"hpp-statistics-git" -> doxygen
-	"hpp-statistics-git" -> cmake
-	"hpp-statistics-git" -> git
-	"hpp-statistics-git" -> "hpp-util-git"
 	"urdf-git" -> doxygen
 	"urdf-git" -> cmake
 	"urdf-git" -> git
 	"urdf-git" -> boost
 	"urdf-git" -> urdfdom
-	"hpp-model-urdf-git" -> cmake
-	"hpp-model-urdf-git" -> assimp
-	"hpp-model-urdf-git" -> "hpp-util-git"
-	"hpp-model-urdf-git" -> "hpp-model-git"
-	"hpp-model-urdf-git" -> "urdf-git"
-	"hpp-model-urdf-git" -> "resource-retriever"
-	"hpp-model-urdf-git" -> urdfdom
-	"hpp-model-urdf-git" -> "srdfdom-git"
-	"hpp-model-git" -> assimp
-	"hpp-model-git" -> cmake
-	"hpp-model-git" -> eigen32
-	"hpp-model-git" -> "hpp-util-git"
-	"hpp-model-git" -> "hpp-fcl-git"
-	"pinocchio-git" -> "metapod-git"
-	"pinocchio-git" -> lua51
-	"pinocchio-git" -> "hpp-fcl-git"
-	"pinocchio-git" -> cmake
-	"pinocchio-git" -> git
-	"pinocchio-git" -> eigen32
-	"pinocchio-git" -> eigenpy
-	"pinocchio-git" -> urdfdom
-	tabula -> "java-runtime"
-	"resource-retriever" -> cmake
-	"resource-retriever" -> urdfdom
-	"resource-retriever" -> curl
-	"resource-retriever" -> boost
+	eiquadprog -> doxygen
+	eiquadprog -> cmake
+	eiquadprog -> boost
+	eiquadprog -> "boost-libs"
+	eiquadprog -> eigen
+	"gepetto-viewer-git" -> doxygen
+	"gepetto-viewer-git" -> cmake
+	"gepetto-viewer-git" -> git
+	"gepetto-viewer-git" -> boost
+	"gepetto-viewer-git" -> urdfdom
+	"gepetto-viewer-git" -> "openscenegraph-qt4"
 	"gepetto-viewer-corba-git" -> doxygen
 	"gepetto-viewer-corba-git" -> cmake
 	"gepetto-viewer-corba-git" -> git
@@ -162,11 +207,58 @@ digraph dependencies {
 	"gepetto-viewer-corba-git" -> omniorb
 	"gepetto-viewer-corba-git" -> qt4
 	"gepetto-viewer-corba-git" -> omniorbpy
-	"hpp-model" -> assimp
-	"hpp-model" -> cmake
-	"hpp-model" -> eigen32
-	"hpp-model" -> "hpp-util-git"
-	"hpp-model" -> "hpp-fcl"
-	"console-bridge" -> cmake
-	"console-bridge" -> "gcc-libs"
+	cppad -> cmake
+	cppad -> "gcc-libs"
+	cppadcodegen -> eigen
+	cppadcodegen -> valgrind
+	cppadcodegen -> clang
+	cppadcodegen -> llvm
+	cppadcodegen -> cmake
+	cppadcodegen -> cppad
+	tsid -> doxygen
+	tsid -> cmake
+	tsid -> eigen
+	tsid -> pinocchio
+	tsid -> eiquadprog
+	"gepetto-viewer" -> "openscenegraph-dae"
+	"gepetto-viewer" -> cmake
+	"gepetto-viewer" -> boost
+	"gepetto-viewer" -> urdfdom
+	"gepetto-viewer" -> openscenegraph
+	"gepetto-viewer" -> urdfdom
+	"gepetto-viewer" -> osgqt
+	"gepetto-viewer" -> boost
+	"gepetto-viewer-corba" -> cmake
+	"gepetto-viewer-corba" -> boost
+	"gepetto-viewer-corba" -> "gepetto-viewer"
+	"gepetto-viewer-corba" -> "python-omniorbpy"
+	"hpp-corbaserver" -> cmake
+	"hpp-corbaserver" -> omniorb
+	"hpp-corbaserver" -> python2
+	"openscenegraph-dae" -> libvncserver
+	"openscenegraph-dae" -> gdal
+	"openscenegraph-dae" -> openexr
+	"openscenegraph-dae" -> "poppler-glib"
+	"openscenegraph-dae" -> "qt5-base"
+	"openscenegraph-dae" -> ffmpeg
+	"openscenegraph-dae" -> cmake
+	"openscenegraph-dae" -> libvncserver
+	"openscenegraph-dae" -> "qt5-base"
+	"openscenegraph-dae" -> ffmpeg
+	"openscenegraph-dae" -> mesa
+	"openscenegraph-dae" -> giflib
+	"openscenegraph-dae" -> jasper
+	"openscenegraph-dae" -> librsvg
+	"openscenegraph-dae" -> "xine-lib"
+	"openscenegraph-dae" -> curl
+	"openscenegraph-dae" -> pth
+	"osgqt-qt4" -> cmake
+	"osgqt-qt4" -> openscenegraph
+	"osgqt-qt4" -> "qt5-base"
+	"pololu-jrk-g2-software" -> cmake
+	"pololu-jrk-g2-software" -> "qt5-base"
+	"pololu-jrk-g2-software" -> "libusbp-1"
+	"aarch64-linux-gnu-pkg-config" -> glib2
+	"arm-linux-gnueabihf-musl" -> "arm-linux-gnueabihf-binutils"
+	"arm-linux-gnueabihf-musl" -> "arm-linux-gnueabihf-gcc"
 }
