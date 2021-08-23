@@ -106,3 +106,6 @@
 [submodule "arm-linux-gnueabihf-musl"]
 	path = arm-linux-gnueabihf-musl
 	url = ssh://aur@aur.archlinux.org/arm-linux-gnueabihf-musl.git
+[submodule "pycppad"]
+	path = pycppad
+	url = git+ssh://aur@aur.archlinux.org/pycppad.git
