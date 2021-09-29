@@ -11,12 +11,13 @@ ENV MAKEFLAGS="-j4" CTEST_OUTPUT_ON_FAILURE=1
 USER user
 WORKDIR /home/user
 
-RUN git clone https://aur.archlinux.org/yay-bin.git \
- && cd yay-bin \
+RUN git clone https://aur.archlinux.org/paru-bin.git \
+ && cd paru-bin \
  && makepkg -si --noconfirm \
  && cd \
- && rm -rf yay-bin \
- && yay -Scc
+ && rm -rf paru-bin \
+ && paru -Scc
 
 RUN curl https://github.com/jcarpent.gpg | gpg --import \
- && curl https://github.com/nim65s.gpg | gpg --import
+ && curl https://github.com/nim65s.gpg | gpg --import \
+ && curl https://github.com/proyan.gpg | gpg --import
