@@ -3,4 +3,4 @@
 package=${1:-$(basename $(pwd))}
 
 docker run --rm -i --name $package -v /var/cache/pacman/pkg/:/var/cache/pacman/pkg/ -v /etc/pacman.d/:/etc/pacman.d/ \
-    -t pkg yay -Syu --noconfirm $package
+    -t pkg paru -Syu --noconfirm $package
