@@ -109,3 +109,6 @@
 [submodule "pycppad"]
 	path = pycppad
 	url = git+ssh://aur@aur.archlinux.org/pycppad.git
+[submodule "pythonqt"]
+	path = pythonqt
+	url = ssh://aur@aur.archlinux.org/pythonqt.git
