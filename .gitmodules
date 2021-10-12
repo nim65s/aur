@@ -112,3 +112,6 @@
 [submodule "pythonqt"]
 	path = pythonqt
 	url = ssh://aur@aur.archlinux.org/pythonqt.git
+[submodule "osqp"]
+	path = osqp
+	url = git+ssh://aur@aur.archlinux.org/osqp.git
