@@ -118,3 +118,6 @@
 [submodule "ndcurves"]
 	path = ndcurves
 	url = git+ssh://aur@aur.archlinux.org/ndcurves.git
+[submodule "coin-or-qpoases"]
+	path = coin-or-qpoases
+	url = ssh://aur@aur.archlinux.org/coin-or-qpoases.git
