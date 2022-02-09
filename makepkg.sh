@@ -1,5 +1,7 @@
 #!/bin/bash -eux
 
+updpkgsums
+
 makepkg --sign
 
 namcap ./*.pkg.tar.zst
