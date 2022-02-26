@@ -73,9 +73,6 @@
 [submodule "cppadcodegen"]
 	path = cppadcodegen
 	url = git+ssh://aur@aur.archlinux.org/cppadcodegen.git
-[submodule "med"]
-	path = med
-	url = git+ssh://aur@aur.archlinux.org/med.git
 [submodule "openscenegraph-dae"]
 	path = openscenegraph-dae
 	url = git+ssh://aur@aur.archlinux.org/openscenegraph-dae.git
