@@ -115,3 +115,6 @@
 [submodule "ndcurves"]
 	path = ndcurves
 	url = git+ssh://aur@aur.archlinux.org/ndcurves.git
+[submodule "osqp"]
+	path = osqp
+	url = git+ssh://aur@aur.archlinux.org/osqp.git
