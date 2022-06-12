@@ -115,3 +115,6 @@
 [submodule "tulip"]
 	path = tulip
 	url = ssh://aur@aur.archlinux.org/tulip.git
+[submodule "ndcurves"]
+	path = ndcurves
+	url = git+ssh://aur@aur.archlinux.org/ndcurves.git
