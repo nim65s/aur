@@ -118,3 +118,6 @@
 [submodule "osqp"]
 	path = osqp
 	url = git+ssh://aur@aur.archlinux.org/osqp.git
+[submodule "proxsuite"]
+	path = proxsuite
+	url = git+ssh://aur@aur.archlinux.org/proxsuite.git
