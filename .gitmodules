@@ -121,3 +121,6 @@
 [submodule "proxsuite"]
 	path = proxsuite
 	url = git+ssh://aur@aur.archlinux.org/proxsuite.git
+[submodule "vulkanscenegraph"]
+	path = vulkanscenegraph
+	url = git+ssh://aur@aur.archlinux.org/vulkanscenegraph.git
