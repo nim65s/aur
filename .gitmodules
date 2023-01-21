@@ -124,3 +124,6 @@
 [submodule "vulkanscenegraph"]
 	path = vulkanscenegraph
 	url = git+ssh://aur@aur.archlinux.org/vulkanscenegraph.git
+[submodule "vsgxchange"]
+	path = vsgxchange
+	url = git+ssh://aur@aur.archlinux.org/vsgxchange.git
