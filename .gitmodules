@@ -127,3 +127,6 @@
 [submodule "vsgxchange"]
 	path = vsgxchange
 	url = git+ssh://aur@aur.archlinux.org/vsgxchange.git
+[submodule "yofi"]
+	path = yofi
+	url = git+ssh://aur@aur.archlinux.org/yofi.git
