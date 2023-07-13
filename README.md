@@ -2,11 +2,13 @@
 
 ## Prepare Docker Container
 
-`docker build -t pkg .`
+```
+docker build -t pkg .
+```
 
 ## Check a pakage
 
-```bash
+```
 cd $package
 ../makepkg.sh
 ```
