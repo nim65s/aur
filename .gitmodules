@@ -130,6 +130,3 @@
 [submodule "yofi"]
 	path = yofi
 	url = git+ssh://aur@aur.archlinux.org/yofi.git
-[submodule "omniorbpy"]
-	path = omniorbpy
-	url = git+ssh://aur@aur.archlinux.org/omniorbpy.git
