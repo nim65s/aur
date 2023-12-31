@@ -130,3 +130,9 @@
 [submodule "yofi"]
 	path = yofi
 	url = git+ssh://aur@aur.archlinux.org/yofi.git
+[submodule "aligator"]
+	path = aligator
+	url = git+ssh://aur@aur.archlinux.org/aligator.git
+[submodule "proxsuite-nlp"]
+	path = proxsuite-nlp
+	url = git+ssh://aur@aur.archlinux.org/proxsuite-nlp.git
