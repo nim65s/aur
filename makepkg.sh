@@ -1,5 +1,7 @@
 #!/bin/bash -eux
 
+namcap PKGBUILD
+
 updpkgsums
 
 makepkg --sign
