@@ -136,3 +136,36 @@
 [submodule "proxsuite-nlp"]
 	path = proxsuite-nlp
 	url = git+ssh://aur@aur.archlinux.org/proxsuite-nlp.git
+[submodule "aur-omniorbpy"]
+	path = aur-omniorbpy
+	url = gh:nim65s/aur-omniorbpy
+[submodule "collada-dom"]
+	path = collada-dom
+	url = git+ssh://aur@aur.archlinux.org/collada-dom
+[submodule "libavresample"]
+	path = libavresample
+	url = git+ssh://aur@aur.archlinux.org/libavresample
+[submodule "octomap"]
+	path = octomap
+	url = git+ssh://aur@aur.archlinux.org/octomap
+[submodule "pcl"]
+	path = pcl
+	url = git+ssh://aur@aur.archlinux.org/pcl
+[submodule "omniorb"]
+	path = omniorb
+	url = git+ssh://aur@aur.archlinux.org/omniorb
+[submodule "qt5-webkit"]
+	path = qt5-webkit
+	url = git+ssh://aur@aur.archlinux.org/qt5-webkit
+[submodule "coin-or-ipopt"]
+	path = coin-or-ipopt
+	url = git+ssh://aur@aur.archlinux.org/coin-or-ipopt
+[submodule "coin-or-coinmumps"]
+	path = coin-or-coinmumps
+	url = git+ssh://aur@aur.archlinux.org/coin-or-coinmumps
+[submodule "metis"]
+	path = metis
+	url = git+ssh://aur@aur.archlinux.org/metis
+[submodule "gklib"]
+	path = gklib
+	url = git+ssh://aur@aur.archlinux.org/gklib
