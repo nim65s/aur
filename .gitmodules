@@ -147,7 +147,7 @@
 	url = git+ssh://aur@aur.archlinux.org/libavresample
 [submodule "octomap"]
 	path = octomap
-	url = git+ssh://aur@aur.archlinux.org/octomap
+	url = git@github.com:nim65s/aur-octomap
 [submodule "pcl"]
 	path = pcl
 	url = git+ssh://aur@aur.archlinux.org/pcl
@@ -172,3 +172,6 @@
 [submodule "qgv"]
 	path = qgv
 	url = git+ssh://aur@aur.archlinux.org/qgv.git
+[submodule "proxsuite-git"]
+	path = proxsuite-git
+	url = git+ssh://aur@aur.archlinux.org/proxsuite-git
