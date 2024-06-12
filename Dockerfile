@@ -18,6 +18,9 @@ RUN git clone https://aur.archlinux.org/paru-bin.git \
  && rm -rf paru-bin \
  && paru -Scc
 
-RUN curl https://github.com/jcarpent.gpg | gpg --import \
+RUN mkdir -p ~/.gnupg/public-keys \
+ && curl https://github.com/jcarpent.gpg | gpg --import \
  && curl https://github.com/nim65s.gpg | gpg --import \
- && curl https://github.com/proyan.gpg | gpg --import
+ && curl https://github.com/proyan.gpg | gpg --import \
+ && curl https://github.com/jorisv.gpg | gpg --import \
+ && curl https://github.com/manifoldfr.gpg | gpg --import \

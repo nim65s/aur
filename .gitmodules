@@ -175,3 +175,6 @@
 [submodule "proxsuite-git"]
 	path = proxsuite-git
 	url = git+ssh://aur@aur.archlinux.org/proxsuite-git
+[submodule "casadi"]
+	path = casadi
+	url = git+ssh://aur@aur.archlinux.org/casadi
