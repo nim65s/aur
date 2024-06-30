@@ -178,3 +178,6 @@
 [submodule "casadi"]
 	path = casadi
 	url = git+ssh://aur@aur.archlinux.org/casadi
+[submodule "hpp-environments-git"]
+	path = hpp-environments-git
+	url = git+ssh://aur@aur.archlinux.org/hpp-environments-git
