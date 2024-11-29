@@ -181,3 +181,6 @@
 [submodule "hpp-environments-git"]
 	path = hpp-environments-git
 	url = git+ssh://aur@aur.archlinux.org/hpp-environments-git
+[submodule "coal"]
+	path = coal
+	url = git+ssh://aur@aur.archlinux.org/coal.git
