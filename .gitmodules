@@ -184,3 +184,6 @@
 [submodule "coal"]
 	path = coal
 	url = git+ssh://aur@aur.archlinux.org/coal.git
+[submodule "matio"]
+	path = matio
+	url = git+ssh://aur@aur.archlinux.org/matio.git
