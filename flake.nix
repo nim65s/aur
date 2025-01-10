@@ -12,6 +12,9 @@
       perSystem = { pkgs, ... }: {
         devShells.default = pkgs.mkShell {
           packages = [ pkgs.distrobox ];
+          shellHook = ''
+            unset LD_PRELOAD
+          '';
         };
       };
     };
