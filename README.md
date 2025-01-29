@@ -34,3 +34,12 @@ cd $package
 ## TODO:
 
 - hpp-model-urdf
+
+## gpg in distrobox
+
+```
+curl https://github.com/nim65s.gpg  > nim65s.gpg
+sudo pacman-key -a nim65s.gpg
+sudo pacman-key --edit-key 9B1A79065D2F2B806C8A5A1C7D2ACDAF4653CF28
+# trust
+```
