@@ -187,3 +187,6 @@
 [submodule "matio"]
 	path = matio
 	url = git+ssh://aur@aur.archlinux.org/matio.git
+[submodule "paru-bin"]
+	path = paru-bin
+	url = git+ssh://aur@aur.archlinux.org/paru-bin.git
