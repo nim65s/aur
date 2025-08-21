@@ -5,7 +5,7 @@ namcap PKGBUILD
 
 updpkgsums
 
-makepkg --sign
+makepkg
 
 namcap ./*.pkg.tar.zst
 
@@ -13,4 +13,4 @@ makepkg --printsrcinfo > .SRCINFO
 
 sudo pacman -U ./*.pkg.tar.zst
 
-mv ./*.pkg.tar.zst{,.sig} ../repo
+mv ./*.pkg.tar.zst ../repo
