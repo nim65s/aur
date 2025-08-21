@@ -190,3 +190,6 @@
 [submodule "paru-bin"]
 	path = paru-bin
 	url = git+ssh://aur@aur.archlinux.org/paru-bin.git
+[submodule "jrl-cmakemodules"]
+	path = jrl-cmakemodules
+	url = git+ssh://aur@aur.archlinux.org/jrl-cmakemodules.git
