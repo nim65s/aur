@@ -193,3 +193,6 @@
 [submodule "jrl-cmakemodules"]
 	path = jrl-cmakemodules
 	url = git+ssh://aur@aur.archlinux.org/jrl-cmakemodules.git
+[submodule "eigen3"]
+	path = eigen3
+	url = git+ssh://aur@aur.archlinux.org/eigen3.git
