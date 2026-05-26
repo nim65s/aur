@@ -46,4 +46,5 @@ curl https://github.com/nim65s.gpg | sudo pacman-key -a -
 curl https://github.com/jorisv.gpg | sudo pacman-key -a -
 sudo pacman-key --edit-key 9B1A79065D2F2B806C8A5A1C7D2ACDAF4653CF28 # trust
 sudo pacman-key --edit-key 1462AF00C9CF3C9E7AFC905E63380359F089A579 # trust
+set -x PATH /usr/bin $PATH
 ```

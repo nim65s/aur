@@ -1,5 +1,7 @@
 #!/bin/bash -eux
 
+export PATH=/usr/bin:$PATH
+
 namcap PKGBUILD
 
 updpkgsums
@@ -16,4 +18,4 @@ repo-add --verify --sign  ../repo/nim.db.tar.gz ./*.pkg.tar.zst
 
 mv ./*.pkg.tar.zst{,.sig} ../repo
 
-rsync -avP ../repo repo:/srv/chatons/static
+# rsync -avP ../repo repo:/srv/chatons/static
