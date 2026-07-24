@@ -35,13 +35,14 @@ cd $package
 
 ```
 distrobox assemble rm && distrobox assemble create && distrobox enter arch
+```
+```
 set -e LD_PRELOAD
-```
-
-```
+set -x PATH /usr/bin $PATH
+sudo sed -i 's/#MAKEFLAGS="-j2"/MAKEFLAGS="-j8"/' /etc/makepkg.conf
+sudo sed -i 's/#Color/Color/' /etc/pacman.conf
 curl https://github.com/nim65s.gpg | sudo pacman-key -a -
 curl https://github.com/jorisv.gpg | sudo pacman-key -a -
-sudo pacman-key --edit-key 9B1A79065D2F2B806C8A5A1C7D2ACDAF4653CF28 # trust 5 save
-sudo pacman-key --edit-key 1462AF00C9CF3C9E7AFC905E63380359F089A579 # trust 5 save
-set -x PATH /usr/bin $PATH
+sudo pacman-key --edit-key 9B1A79065D2F2B806C8A5A1C7D2ACDAF4653CF28 # trust 5 y save
+sudo pacman-key --edit-key 1462AF00C9CF3C9E7AFC905E63380359F089A579 # trust 5 y save
 ```

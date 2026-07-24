@@ -1,9 +1,6 @@
 [submodule "pinocchio"]
 	path = pinocchio
 	url = git+ssh://aur@aur.archlinux.org/pinocchio.git
-[submodule "pinocchio-git"]
-	path = pinocchio-git
-	url = git+ssh://aur@aur.archlinux.org/pinocchio-git.git
 [submodule "tabula"]
 	path = tabula
 	url = git+ssh://aur@aur.archlinux.org/tabula.git
@@ -13,15 +10,6 @@
 [submodule "hpp-fcl"]
 	path = hpp-fcl
 	url = git+ssh://aur@aur.archlinux.org/hpp-fcl.git
-[submodule "hpp-util-git"]
-	path = hpp-util-git
-	url = git+ssh://aur@aur.archlinux.org/hpp-util-git.git
-[submodule "hpp-statistics-git"]
-	path = hpp-statistics-git
-	url = git+ssh://aur@aur.archlinux.org/hpp-statistics-git.git
-[submodule "hpp-pinocchio-git"]
-	path = hpp-pinocchio-git
-	url = git+ssh://aur@aur.archlinux.org/hpp-pinocchio-git.git
 [submodule "urdfdom"]
 	path = urdfdom
 	url = git+ssh://aur@aur.archlinux.org/urdfdom.git
@@ -34,48 +22,21 @@
 [submodule "hpp-constraints"]
 	path = hpp-constraints
 	url = git+ssh://aur@aur.archlinux.org/hpp-constraints.git
-[submodule "srdfdom-git"]
-	path = srdfdom-git
-	url = git+ssh://aur@aur.archlinux.org/srdfdom-git.git
-[submodule "resource-retriever"]
-	path = resource-retriever
-	url = git+ssh://aur@aur.archlinux.org/resource-retriever.git
 [submodule "urdf-git"]
 	path = urdf-git
 	url = git+ssh://aur@aur.archlinux.org/urdf-git.git
-[submodule "gepetto-viewer"]
-	path = gepetto-viewer
-	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer.git
-[submodule "gepetto-viewer-corba"]
-	path = gepetto-viewer-corba
-	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer-corba.git
-[submodule "gepetto-viewer-git"]
-	path = gepetto-viewer-git
-	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer-git.git
-[submodule "gepetto-viewer-corba-git"]
-	path = gepetto-viewer-corba-git
-	url = git+ssh://aur@aur.archlinux.org/gepetto-viewer-corba-git.git
 [submodule "hpp-corbaserver"]
 	path = hpp-corbaserver
 	url = git+ssh://aur@aur.archlinux.org/hpp-corbaserver.git
-[submodule "hpp-fcl-git"]
-	path = hpp-fcl-git
-	url = git+ssh://aur@aur.archlinux.org/hpp-fcl-git.git
 [submodule "xcursor-gruppled-lite"]
 	path = xcursor-gruppled-lite
 	url = git+ssh://aur@aur.archlinux.org/xcursor-gruppled-lite.git
-[submodule "osgqt"]
-	path = osgqt
-	url = git+ssh://aur@aur.archlinux.org/osgqt.git
 [submodule "cppad"]
 	path = cppad
 	url = git+ssh://aur@aur.archlinux.org/cppad.git
 [submodule "cppadcodegen"]
 	path = cppadcodegen
 	url = git+ssh://aur@aur.archlinux.org/cppadcodegen.git
-[submodule "openscenegraph-dae"]
-	path = openscenegraph-dae
-	url = git+ssh://aur@aur.archlinux.org/openscenegraph-dae.git
 [submodule "eiquadprog"]
 	path = eiquadprog
 	url = git+ssh://aur@aur.archlinux.org/eiquadprog.git
@@ -91,9 +52,6 @@
 [submodule "pololu-jrk-g2-software"]
 	path = pololu-jrk-g2-software
 	url = git+ssh://aur@aur.archlinux.org/pololu-jrk-g2-software.git
-[submodule "osgqt-qt4"]
-	path = osgqt-qt4
-	url = git+ssh://aur@aur.archlinux.org/osgqt-qt4.git
 [submodule "aarch64-linux-gnu-pkg-config"]
 	path = aarch64-linux-gnu-pkg-config
 	url = ssh://aur@aur.archlinux.org/aarch64-linux-gnu-pkg-config.git
@@ -103,21 +61,12 @@
 [submodule "pycppad"]
 	path = pycppad
 	url = git+ssh://aur@aur.archlinux.org/pycppad.git
-[submodule "pythonqt"]
-	path = pythonqt
-	url = ssh://aur@aur.archlinux.org/pythonqt.git
 [submodule "coin-or-qpoases"]
 	path = coin-or-qpoases
 	url = ssh://aur@aur.archlinux.org/coin-or-qpoases.git
-[submodule "tulip"]
-	path = tulip
-	url = ssh://aur@aur.archlinux.org/tulip.git
 [submodule "ndcurves"]
 	path = ndcurves
 	url = git+ssh://aur@aur.archlinux.org/ndcurves.git
-[submodule "osqp"]
-	path = osqp
-	url = git+ssh://aur@aur.archlinux.org/osqp.git
 [submodule "proxsuite"]
 	path = proxsuite
 	url = git+ssh://aur@aur.archlinux.org/proxsuite.git
@@ -139,9 +88,6 @@
 [submodule "aur-omniorbpy"]
 	path = aur-omniorbpy
 	url = gh:nim65s/aur-omniorbpy
-[submodule "collada-dom"]
-	path = collada-dom
-	url = git+ssh://aur@aur.archlinux.org/collada-dom
 [submodule "libavresample"]
 	path = libavresample
 	url = git+ssh://aur@aur.archlinux.org/libavresample
@@ -154,9 +100,6 @@
 [submodule "omniorb"]
 	path = omniorb
 	url = git+ssh://aur@aur.archlinux.org/omniorb
-[submodule "qt5-webkit"]
-	path = qt5-webkit
-	url = git+ssh://aur@aur.archlinux.org/qt5-webkit
 [submodule "coin-or-ipopt"]
 	path = coin-or-ipopt
 	url = git+ssh://aur@aur.archlinux.org/coin-or-ipopt
@@ -169,30 +112,15 @@
 [submodule "gklib"]
 	path = gklib
 	url = git+ssh://aur@aur.archlinux.org/gklib
-[submodule "qgv"]
-	path = qgv
-	url = git+ssh://aur@aur.archlinux.org/qgv.git
-[submodule "proxsuite-git"]
-	path = proxsuite-git
-	url = git+ssh://aur@aur.archlinux.org/proxsuite-git
 [submodule "casadi"]
 	path = casadi
 	url = git+ssh://aur@aur.archlinux.org/casadi
-[submodule "hpp-environments-git"]
-	path = hpp-environments-git
-	url = git+ssh://aur@aur.archlinux.org/hpp-environments-git
 [submodule "coal"]
 	path = coal
 	url = git+ssh://aur@aur.archlinux.org/coal.git
-[submodule "matio"]
-	path = matio
-	url = git+ssh://aur@aur.archlinux.org/matio.git
 [submodule "paru-bin"]
 	path = paru-bin
 	url = git+ssh://aur@aur.archlinux.org/paru-bin.git
 [submodule "jrl-cmakemodules"]
 	path = jrl-cmakemodules
 	url = git+ssh://aur@aur.archlinux.org/jrl-cmakemodules.git
-[submodule "eigen3"]
-	path = eigen3
-	url = git+ssh://aur@aur.archlinux.org/eigen3.git
