@@ -124,3 +124,6 @@
 [submodule "jrl-cmakemodules"]
 	path = jrl-cmakemodules
 	url = git+ssh://aur@aur.archlinux.org/jrl-cmakemodules.git
+[submodule "tulip"]
+	path = tulip
+	url = ssh://aur@aur.archlinux.org/tulip.git
