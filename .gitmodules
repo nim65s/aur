@@ -127,3 +127,6 @@
 [submodule "tulip"]
 	path = tulip
 	url = ssh://aur@aur.archlinux.org/tulip.git
+[submodule "peppercarrot-fonts"]
+	path = peppercarrot-fonts
+	url = ssh://aur@aur.archlinux.org/peppercarrot-fonts.git
